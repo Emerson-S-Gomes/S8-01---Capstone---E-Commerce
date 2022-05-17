@@ -1,0 +1,161 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, and, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input, textarea, select {
+	background:transparent;
+	border:0;
+	font-size:100%;
+	margin:0;
+	outline:0;
+	padding:0;
+	vertical-align:baseline;
+} 
+img {
+    max-width: 100%;
+    display: block;
+}
+img.fotos:hover {
+    transform: scale(1.1);
+}
+
+
+/* layout cabecalho do top */
+
+.cabecalhotop {
+    background-color: black;
+    padding: 20px 20px;
+    border: 25px;
+    justify-content: space-between;
+    align-items:center ;
+    box-shadow: 0 10PX 25px #888;
+
+}
+.cabecalho {
+    list-style: none;
+    margin-right: 10px;
+}
+.menutop {
+    margin-right: 25px;
+}
+
+@font-face {
+    font-family: "Fonte Usada";
+    src: url("../arquivoDeImagem/SF\ Comic\ Script\ Shaded.ttf");
+  }
+div.logotipo h1 {
+    font-family:"Fonte Usada";
+    font-size: 1.5em;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+        
+}
+.textomenutop {
+    color: white;
+    padding: 10px;
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.cabecalhotop,.cabecalho {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.textomenutop:hover {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+}
+/* layout section*/
+.corpodosite {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+    
+}
+.corpodosite > div {
+    margin-top: 30px;
+    flex: 1 1 200px;
+    padding: 15px;
+}
+/* layout aside */
+
+aside {
+    background: white;
+    height: 800px;
+    width: 350px;
+    margin-top: 30px;
+    margin-right: 0;
+    border-radius: 15px;
+    text-align: center;
+    float: right;
+    padding: 15px
+
+
+}
+aside input {
+    background: rgb(216, 211, 211);
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    
+
+}
+aside input {
+    padding: 10px;
+}
+aside input::placeholder {
+    padding: 5px 10px 5px 10px;
+    color: rgba(151, 3, 3, 0.479);
+    
+}
+aside .btn-pesquisa {
+    margin-left: 10px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+aside .btn-pesquisa:hover {
+    
+    background-color: rgb(14, 13, 13);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+aside .cabecalhocarrinho {
+    margin-top: 15px;
+    padding: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 15px;
+}
+aside .cabecalhorelacaodositens {
+    height: 220px;
+    margin-top: 15px;
+    padding: 10px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.212);
+    border-radius: 15px;
+}
+aside .cabecalhototaldacompra {
+    height: 100px;
+    margin-top: 15px;
+    padding: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
